@@ -1,0 +1,145 @@
+:root{
+    --main_color:#c9f31d;
+    --p_color:#8a8a8a;
+    --bg_color:#1f1f1f;
+    --white_color:#fff;
+    --black_color:#070707;
+    --border_color:rgba(255,2555,255,0.1);
+}
+
+.contact .parent2{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 10%;
+/* border-bottom: 1px solid rgba(201, 243, 29, 0.4) ;
+border-bottom: 1px solid var(--p_color) ; */
+padding-bottom: 50px;
+
+
+
+
+}
+.parent2 .item,.item2{
+  width:45%
+}
+.parent2 .item{
+  padding: 50px;
+  border: 1px solid var(--main_color);
+
+}
+.parent2 .item h6{
+  color: var(--p_color);
+  letter-spacing: 1px;
+}
+
+
+.contact{
+    width: 80%;
+margin: auto;
+text-align: center;
+padding: 50px 0px;
+}
+.contact p{
+  color: var(--p_color);
+  margin-bottom: 20px;
+}
+.contact p{letter-spacing: 1px;}
+.contact h3{
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.data{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.bottom .content{
+  text-align: left;
+  line-height: 0.5;
+
+
+}
+
+.parent2 .item2 input{
+  background-color: transparent;
+  padding: 10px 10px;
+  border-radius: 10px;
+    border: 1px solid var(--p_color);
+    width: 48%;
+
+}
+textarea{
+  background-color: transparent;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  padding: 10px 10px;
+  border: 1px solid var(--p_color);
+}
+
+.parent2 .item2 button{
+    background-color: #1f1f1f;
+  padding: 10px 0;
+  border-radius: 10px;
+  color: var(--p_color);
+  border: 1px solid var(--main_color);
+  letter-spacing: 1px;
+  transition: 1s ease;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(201, 243, 29, 0.5);
+}
+
+.parent2 .item2 button:hover{
+  background: #c9f31d;
+    color: var(--black_color);
+    box-shadow: 0 0 15px rgba(201, 243, 29, 0.5);
+    border: none;
+    font-weight: bold;
+    /* background: linear-gradient(90deg, #c9f31d, #8be9fd) */
+}
+.content h6,h4{
+  letter-spacing: 1px;
+}
+
+
+
+.parent2 .item2{
+  border: 1px solid var(--main_color);
+  border-radius: 10px;
+  padding: 50px 50px;
+
+}
+.inputs,.inputs2{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap:4%
+}
+
+form{
+    display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+@media (max-width: 768px){
+  .parent2 .item,.item2{
+  width:100%
+}
+.contact .parent2{
+flex-wrap: wrap;
+gap:10px
+
+
+}
+}
+

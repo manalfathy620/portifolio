@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Playpen+Sans:wght@100..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --main_color:#c9f31d;
+    --p_color:#8a8a8a;
+    --bg_color:#1f1f1f;
+    --white_color:#fff;
+    --black_color:#070707;
+    --border_color:rgba(255,2555,255,0.1);
+}
+.skill-card{
+  width:200px;
+  height: 200px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    background:#252525;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.skill-card:hover{
+    transform:translateY(-10px);
+}
+
+.swiper {
+  padding-bottom: 50px !important;
+  padding-top: 50px !important;
+  
+}
+
+.swiper-pagination {
+  bottom: 0px !important;
+}
+
+.swiper-pagination-bullet {
+  background: white !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #c9f31d !important;
+}
+
+.skill-card h3{
+    color:white;
+    margin-top:20px;
+    font-size:22px;
+}
+/* //////////////////////////////// */
+.skills{
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 100px 0;
+  border-bottom: 1px solid rgba(201, 243, 29, 0.4);
+
+
+}
+.skills h2{
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.skills h5{
+  font-size: 12px;
+  color: var(--white_color);
+  letter-spacing: 1px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.skills p{
+  color: var(--p_color);
+  letter-spacing: 1px;
+  /* margin-bottom: 30px; */
+}
