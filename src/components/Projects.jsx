@@ -63,7 +63,7 @@ export default function Projects() {
         >
           <div className="item">
             <div className="img" style={{ position: "relative" }}>
-              <img src="/images/html1.png"></img>
+              <img src="/images/html1.png" alt="imggg"></img>
               <button
                 className="btn-image"
                 style={{
@@ -114,7 +114,7 @@ An elegant perfume e-commerce platform featuring luxury fragrances, curated coll
 
           <div className="item">
             <div className="img" style={{ position: "relative" }}>
-              <img src="/images/html5.png"></img>
+              <img src="/images/html5.png" alt="imgg"></img>
               <button
                 className="btn-image"
                 style={{
@@ -166,7 +166,7 @@ A modern coffee shop website featuring handcrafted beverages, delicious desserts
 
           <div className="item">
             <div className="img" style={{ position: "relative" }}>
-              <img src="/images/shoess.png"></img>
+              <img src="/images/shoess.png" alt="imgg"></img>
               <button
                 className="btn-image"
                 style={{
@@ -217,7 +217,7 @@ A modern footwear e-commerce platform featuring trendy sneakers, casual and form
 
           <div className="item">
             <div className="img" style={{ position: "relative" }}>
-              <img src="/images/tailwind3.png"></img>
+              <img src="/images/tailwind3.png" alt="imgg"></img>
               <button
                 className="btn-image"
                 style={{
@@ -269,7 +269,7 @@ A modern digital marketing platform helping businesses grow through creative bra
 
           <div className="item">
             <div className="img" style={{ position: "relative" }}>
-              <img src="/images/js-flor.png"></img>
+              <img src="/images/js-flor.png" alt="imgg"></img>
               <button
                 className="btn-image"
                 style={{
@@ -323,7 +323,7 @@ A modern flower e-commerce platform offering fresh bouquets, gift collections, p
 
           <div className="item">
             <div className="img" style={{ position: "relative" }}>
-              <img src="/images/port.png"></img>
+              <img src="/images/port.png" alt="imgg"></img>
               <button
                 className="btn-image"
                 style={{
@@ -391,7 +391,7 @@ A modern portfolio website showcasing professional projects, technical skills, w
 
                      <div className="item it1">
             <div className="img" style={{ position: "relative" }}>
-              <img src="/images/adan.png"></img>
+              <img src="/images/adan.png" alt="imgg"></img>
               <button
                 className="btn-image"
                 style={{
@@ -446,7 +446,7 @@ A modern portfolio website showcasing professional projects, technical skills, w
 
            <div className="item it1">
             <div className="img" style={{ position: "relative" }}>
-              <img src="/images/weather2.png"></img>
+              <img src="/images/weather2.png" alt="imgg"></img>
               <button
                 className="btn-image"
                 style={{
@@ -500,7 +500,7 @@ A modern portfolio website showcasing professional projects, technical skills, w
           {/*  */}
           <div className="item it1">
             <div className="img" style={{ position: "relative" }}>
-              <img src="/images/todo.png"></img>
+              <img src="/images/todo.png" alt="imgg"></img>
               <button
                 className="btn-image"
                 style={{
@@ -552,7 +552,7 @@ An interactive task management application featuring task creation, editing, com
 
           <div className="item it1">
             <div className="img" style={{ position: "relative" }}>
-              <img src="/images/jss.png"></img>
+              <img src="/images/jss.png" alt="imgg"></img>
               <button
                 className="btn-image"
                 style={{
@@ -664,7 +664,7 @@ A responsive calculator application with a clean design, supporting basic arithm
 
           <div className="item it1">
             <div className="img" style={{ position: "relative" }}>
-              <img src="/images/upload.png"></img>
+              <img src="/images/upload.png" alt="imgg"></img>
               <button
                 className="btn-image"
                 style={{
@@ -719,7 +719,7 @@ An interactive image gallery featuring dynamic filtering, category-based browsin
         <div className="port" style={{ display: "flex", justifyContent: "left", gap: "10px" }}>
           <div className="item it2">
             <div className="img" style={{ position: "relative" }}>
-              <img src="/images/port.png"></img>
+              <img src="/images/port.png" alt="imgg"></img>
                 <button
                 className="btn-image"
                 style={{
