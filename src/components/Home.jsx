@@ -32,8 +32,8 @@ export default function Home() {
           user experiences.
         </p>
         <div className="btns">
-          <button>View My Projects</button>
-          <button>Get In Touch</button>
+          <button><a href="#projects" style={{textDecoration:"none",color:"white"}}>View My Projects</a></button>
+          <button><a href="#contact" style={{textDecoration:"none",color:"white"}}>Get In Touch</a></button>
         </div>
       </div>
 

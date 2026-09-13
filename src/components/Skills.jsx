@@ -37,7 +37,7 @@ export default function Skills() {
       slidesPerView={4}
       spaceBetween={10} 
       pagination={{ clickable: true }}
-      autoplay={{ delay: 2500 }}
+      autoplay={{ delay: 2000 }}
       loop={true}
       breakpoints={{
         0: {

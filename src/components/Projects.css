@@ -20,7 +20,17 @@
   background-color: #252525;
 
 }
+.projects button.active{
+    color: var(--black_color);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  background-color: #c9f31d;
+  border-radius: 20px;
 
+}
+
+.projects p{
+  font-size: 14px;
+}
 .img .btn-image{
   cursor: pointer;
 }
@@ -84,12 +94,12 @@ font-size: 17px;
   font-size: 15px;
   font-weight: bold;
 }
-.btn:focus{
+/* .btn:focus{
   color: var(--black_color);
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
   background-color: #c9f31d;
   border-radius: 20px;
-}
+} */
 
 .parent{
   display: flex;

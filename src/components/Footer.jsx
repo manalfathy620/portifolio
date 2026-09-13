@@ -31,24 +31,24 @@ export default function Footer() {
           <nav>
 
             <ul className="nav2">
-                    <li style={{border:"1px solid #c9f31d",width:"40px",height:"40px",borderRadius:"50%",display:"flex",justifyContent:"center",alignItems:"center"}}>
+                    <li className="qq" style={{border:"1px solid #c9f31d",width:"40px",height:"40px",borderRadius:"50%",display:"flex",justifyContent:"center",alignItems:"center"}}>
                       <a href="">
-                        <FaLinkedin />
+                        <FaLinkedin className="q" />
                       </a>
                     </li>
-                    <li  style={{border:"1px solid #c9f31d",width:"40px",height:"40px",borderRadius:"50%",display:"flex",justifyContent:"center",alignItems:"center"}}>
+                    <li className="qq" style={{border:"1px solid #c9f31d",width:"40px",height:"40px",borderRadius:"50%",display:"flex",justifyContent:"center",alignItems:"center"}}>
                       <a href="https://www.facebook.com/manal.fathy.756"  target="_blank">
-                        <FaFacebookSquare />
+                        <FaFacebookSquare className="q" />
                       </a>
                     </li>
-                    <li  style={{border:"1px solid #c9f31d",width:"40px",height:"40px",borderRadius:"50%",display:"flex",justifyContent:"center",alignItems:"center"}}>
+                    <li className="qq" style={{border:"1px solid #c9f31d",width:"40px",height:"40px",borderRadius:"50%",display:"flex",justifyContent:"center",alignItems:"center"}}>
                       <a href="">
-                        <FaInstagramSquare />
+                        <FaInstagramSquare className="q" />
                       </a>
                     </li>
-                    <li  style={{border:"1px solid #c9f31d",width:"40px",height:"40px",borderRadius:"50%",display:"flex",justifyContent:"center",alignItems:"center"}}>
+                    <li className="qq" style={{border:"1px solid #c9f31d",width:"40px",height:"40px",borderRadius:"50%",display:"flex",justifyContent:"center",alignItems:"center"}}>
                       <a href="https://github.com/manalfathy620"  target="_blank">
-                      <FaGithubSquare />
+                      <FaGithubSquare className="q" />
                       </a>
                     </li>
                     

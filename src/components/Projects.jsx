@@ -31,21 +31,21 @@ export default function Projects() {
       >
         <button
           style={{ border: "none", outline: "none" }}
-          className="btn btnn"
+          className={`btn btnn ${tab === "Allprojects" ? "active" : ""}`}
           onClick={() => settab("Allprojects")}
         >
           Allprojects
         </button>
         <button
           style={{ border: "none", outline: "none" }}
-          className="btn btnn"
+          className={`btn btnn ${tab === "Jsapps" ? "active" : ""}`}
           onClick={() => settab("Jsapps")}
         >
           JsApps
         </button>
         <button
           style={{ border: "none", outline: "none" }}
-          className="btn"
+          className={`btn ${tab === "Portfolio" ? "active" : ""}`}
           onClick={() => settab("Portfolio")}
         >
           Portfolio
@@ -166,7 +166,7 @@ A modern coffee shop website featuring handcrafted beverages, delicious desserts
 
           <div className="item">
             <div className="img" style={{ position: "relative" }}>
-              <img src="/images/shoes.png"></img>
+              <img src="/images/shoess.png"></img>
               <button
                 className="btn-image"
                 style={{
@@ -185,7 +185,7 @@ A modern coffee shop website featuring handcrafted beverages, delicious desserts
 
               <button
                 className="btn-image2"
-                onClick={() => window.open("https://manalfathy620.github.io/responsive/", "_blank")}
+                onClick={() => window.open("https://manalfathy620.github.io/shoess/", "_blank")}
                 style={{
                   position: "absolute",
                   top: "50%",
@@ -288,7 +288,7 @@ A modern digital marketing platform helping businesses grow through creative bra
 
               <button
                 className="btn-image2"
-                onClick={() => window.open("https://manalfathy620.github.io/p-js/", "_blank")}
+                onClick={() => window.open("https://stupendous-hamster-516722.netlify.app/", "_blank")}
                 style={{
                   position: "absolute",
                   top: "50%",
@@ -342,7 +342,7 @@ A modern flower e-commerce platform offering fresh bouquets, gift collections, p
 
               <button
                 className="btn-image2"
-                onClick={() => window.open("https://github.com", "_blank")}
+                onClick={() => window.open("https://github.com/manalfathy620/portifolio", "_blank")}
                 style={{
                   position: "absolute",
                   top: "50%",
@@ -382,11 +382,122 @@ A modern portfolio website showcasing professional projects, technical skills, w
         <div className="web"
           style={{
             display: "flex",
-            justifyContent: "space-between",
+          
             gap: "10px",
+            flexWrap:"wrap"
             
           }} 
         >
+
+                     <div className="item it1">
+            <div className="img" style={{ position: "relative" }}>
+              <img src="/images/adan.png"></img>
+              <button
+                className="btn-image"
+                style={{
+                  position: "absolute",
+                  top: "5%",
+                  left: "5%",
+                  padding: "10px",
+                  borderRadius: "10px",
+                  background: "transparent",
+                  border: "1px solid #c9f31d",
+                  color: "wheat",
+                }}
+              >
+                Completed
+              </button>
+
+              <button
+                className="btn-image2"
+                onClick={() => window.open("https://admirable-shortbread-bf47bc.netlify.app/", "_blank")}
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%,-50%)",
+                  padding: "10px",
+                  borderRadius: "10px",
+                  background: "transparent",
+                  border: "1px solid #c9f31d",
+                  color: "wheat",
+                }}
+              >
+                View Project
+              </button>
+            </div>
+            <div className="content">
+              <h2 style={{fontSize:"18px"}}>Prayer Times App</h2>
+              <p>
+              
+ An interactive application that displays accurate daily prayer times based on the user's location. It offers a clean, responsive interface with multilingual support and an easy-to-use experience.
+              </p>
+              <div className="allbtn">
+                <button>Html</button>
+                <button>Css</button>
+                  <button>Js</button>
+                
+              </div>
+            </div>
+          </div>
+
+
+          {/* /// */}
+
+           <div className="item it1">
+            <div className="img" style={{ position: "relative" }}>
+              <img src="/images/weather2.png"></img>
+              <button
+                className="btn-image"
+                style={{
+                  position: "absolute",
+                  top: "5%",
+                  left: "5%",
+                  padding: "10px",
+                  borderRadius: "10px",
+                  background: "transparent",
+                  border: "1px solid #c9f31d",
+                  color: "wheat",
+                }}
+              >
+                Completed
+              </button>
+
+              <button
+                className="btn-image2"
+                onClick={() => window.open("https://heroic-brigadeiros-112f33.netlify.app/", "_blank")}
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%,-50%)",
+                  padding: "10px",
+                  borderRadius: "10px",
+                  background: "transparent",
+                  border: "1px solid #c9f31d",
+                  color: "wheat",
+                }}
+              >
+                View Project
+              </button>
+            </div>
+            <div className="content">
+              <h2 style={{fontSize:"18px"}}>Weather App</h2>
+              <p>
+              
+ A modern weather application that displays real-time weather information, hourly and daily forecasts, supports multiple languages, dynamic themes, and location-based weather updates with a responsive and intuitive user interface.
+              </p>
+              <div className="allbtn">
+                <button>Html</button>
+                <button>Css</button>
+                  <button>Js</button>
+                
+              </div>
+            </div>
+          </div>
+
+
+          {/*  */}
           <div className="item it1">
             <div className="img" style={{ position: "relative" }}>
               <img src="/images/todo.png"></img>
@@ -609,6 +720,39 @@ An interactive image gallery featuring dynamic filtering, category-based browsin
           <div className="item it2">
             <div className="img" style={{ position: "relative" }}>
               <img src="/images/port.png"></img>
+                <button
+                className="btn-image"
+                style={{
+                  position: "absolute",
+                  top: "5%",
+                  left: "5%",
+                  padding: "10px",
+                  borderRadius: "10px",
+                  background: "transparent",
+                  border: "1px solid #c9f31d",
+                  color: "wheat",
+                }}
+              >
+                Completed
+              </button>
+
+              <button
+                className="btn-image2"
+                onClick={() => window.open("https://github.com/manalfathy620/portifolio", "_blank")}
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%,-50%)",
+                  padding: "10px",
+                  borderRadius: "10px",
+                  background: "transparent",
+                  border: "1px solid #c9f31d",
+                  color: "wheat",
+                }}
+              >
+                View Project
+              </button>
             </div>
             <div className="content">
               <h2 style={{fontSize:"18px"}}>Personal Portfolio – Developer Website</h2>

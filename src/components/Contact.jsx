@@ -25,6 +25,7 @@ export default function Contact() {
     <div className="parent2">
   {/* Left Card */}
   <div className="item">
+    <img style={{width:"150px",height:"150px"}} src="/images/Hand coding-cuate.png"></img>
     <h3 style={{color:"#c9f31d"}}>Manal Fathi</h3>
     <p>
       Full-Stack Developer based in Egypt. I love building elegant,

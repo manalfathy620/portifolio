@@ -77,8 +77,13 @@ list-style-type: none;
 }
 .home .part1 button:hover{
     background: #c9f31d;
-    color: #1f1f1f;
+    color: #1f1f1f !important;
     box-shadow: 0 0 15px rgba(201, 243, 29, 0.5);
+}
+.home .part1 button a:hover{
+  
+    color: #1f1f1f !important;
+  
 }
 .btns{
   display: flex;

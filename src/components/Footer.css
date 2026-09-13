@@ -11,6 +11,14 @@
   margin: auto;
   
 }
+.foot .qq:hover .q{
+  color: #c9f31d;
+
+}
+.foot .qq:hover{
+border: 1px solid #fff !important;
+
+}
 .heart{
   color: #c9f31d;
   animation-name: aa;
